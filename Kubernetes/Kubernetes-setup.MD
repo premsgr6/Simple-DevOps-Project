@@ -54,7 +54,7 @@
     ssh-keygen
    ```
 
-1. Create kubernetes cluster definitions on S3 bucket
+1. Create kubernetes cluster definitions on S3 bucket and chnage zones according to ur region
    ```sh
    kops create cluster --cloud=aws --zones=ap-south-1b --name=demo.k8s.valaxy.net --dns-zone=valaxy.net --dns private 
     ```
